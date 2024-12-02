@@ -6,8 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Membaca data
-file_path = "C:\Streamlit\heart.csv"  # Ganti dengan path file Anda
-data = pd.read_csv(file_path)
+file_path = "C:\Streamlit\heart.csv" 
+data = pd.read_csv('data/heart.csv')
+
 
 # Menampilkan teks di aplikasi
 st.title("Analisis Dataset Penyakit Jantung")
